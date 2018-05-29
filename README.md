@@ -6,8 +6,8 @@ fundamental html and css skills needed to take a wireframe design and turn it in
 # Website images
 ![alt text](public/images/travelshot1.png "Description goes here")
 
-###Image of the home page
+######Home page
 
 ![alt text](public/images/travelshot2.png "Description goes here")
 
-###Image of the destination information
+######Destination information
