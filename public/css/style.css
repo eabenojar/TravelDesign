@@ -522,8 +522,6 @@ li a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-  
 }
 .footer-grid{
   display: flex;
@@ -782,6 +780,20 @@ li a {
   }
  }
  @media all and (max-width: 980px) {
+  .center-text{
+    z-index: 1;
+    font-size: 100px;
+    background: -webkit-linear-gradient(#ffffff, #bcbcbc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFF;
+    font-weight: 800;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .tours-section-row{
     display: flex;
     flex-direction: column;
@@ -928,14 +940,85 @@ li a {
   .review-intro-description {
     display: none;
   }
+  .footer-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+  }
+  .footer-grid a {
+    text-decoration: none;
+    color: #3c4970;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Raleway, sans-serif;
+  }
+  .logo-footer{
+    border: 3px solid black;
+    padding: 20px;
+  }
+
 }
 @media all and (max-width: 736px) { 
+  .center-text{
+    z-index: 1;
+    font-size: 60px;
+  }
   .event-description{
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 400;
     color: #a8a8a8;
     font-family: Raleway, sans-serif;
     line-height: 1.8;
   }
+  .footer-container{
+    background-image: url("https://images.unsplash.com/photo-1490723286627-4b66e6b2882a?ixlib=rb-0.3.5&s=70a8a314eedf8f4776856fb5ac26671e&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer{
+    width: 70%;
+    height: auto;
+    background-color: #FFF;
+    opacity: 0.8;
+  }
+  .footer-nav{
+    width: 100%;
+    background-color: #FFF;
+    list-style-type: none;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .footer-grid a {
+   margin: 30px;
+  }
+  .logo-footer{
+    border: none;
+    padding: 20px;
+  }
+  
  }
-@media all and (max-width: 480px) {  }
+@media all and (max-width: 480px) { 
+  .center-text{
+    z-index: 1;
+    font-size: 40px;
+  }
+ }
