@@ -419,27 +419,6 @@ li a {
 #first-event-information{
   border-right: 5px solid #E78657;
 }
-@media screen and (max-height: 900px) {
-  .event-description{
-    font-size: 14px;
-    font-weight: 400;
-    color: #a8a8a8;
-    font-family: Raleway, sans-serif;
-    line-height: 1.8;
-  }
-  .first-event-location{
-    font-size: 30px;
-    font-weight: 700;
-    font-family: Raleway, sans-serif;
-    color: #E78657;
-  }
-  .second-event-location{
-    font-size: 30px;
-    font-weight: 700;
-    font-family: Raleway, sans-serif;
-    color: #4982A8;
-  }
-}
 .review-container{
   height: 150vh;
   width: 100vw;
@@ -666,6 +645,141 @@ li a {
     color: #294768;
     
   }
+  .events-container-right{
+    height: 80vh;
+    width: 80vw;
+    margin: 5vw;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+  }
+  .events-container-left{
+    display: none;
+  }
+  .events_section {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    background-image: url("https://images.unsplash.com/photo-1504259804616-eda856c0149a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d865cad2743955d669ac850593138155&auto=format&fit=crop&w=1350&q=80");
+  }
+  .first-event-location{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Raleway, sans-serif;
+    color: #E78657;
+  }
+  .second-event-location{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Raleway, sans-serif;
+    color: #4982A8;
+  }
+  .event-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a8a8a8;
+    font-family: Raleway, sans-serif;
+    line-height: 1.8;
+  }
+  .first-event-button{
+    padding: 8px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    background-color:  #E78657;
+  }
+  .second-event-button{
+    padding: 8px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    background-color:  #4982A8;
+  }
+  .event-image-section{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .event-image{
+    width: 90%;
+    min-height: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .first-event{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid lightgrey;
+    /* padding: 10px; */
+  }
+  .second-event{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .events-container-right{
+    height: auto;
+    width: 80vw;
+    margin: 5vw;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+  }
+  .review-container{
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;  
+  }
+  .review-intro{
+    height: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+  .review-section{
+    height: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .review-section-box{
+    width: 90%;
+    margin: 10px;
+    height: 100%;
+    background-color: #ededd0;
+    padding: 2%;
+    border: 5px solid #FFF;
+  }
  }
  @media all and (max-width: 980px) {
   .tours-section-row{
@@ -803,6 +917,25 @@ li a {
     color: #294768;
     
   }
+  .review-section{
+    height: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .review-intro-description {
+    display: none;
+  }
 }
-@media all and (max-width: 736px) {  }
+@media all and (max-width: 736px) { 
+  .event-description{
+    font-size: 12px;
+    font-weight: 400;
+    color: #a8a8a8;
+    font-family: Raleway, sans-serif;
+    line-height: 1.8;
+  }
+ }
 @media all and (max-width: 480px) {  }
