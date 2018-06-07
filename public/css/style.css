@@ -959,12 +959,17 @@ li a {
     border: 3px solid black;
     padding: 20px;
   }
-
+  .event-date{
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    color: #000000;
+  }
 }
 @media all and (max-width: 736px) { 
   .center-text{
     z-index: 1;
-    font-size: 60px;
+    font-size: 70px;
   }
   .event-description{
     font-size: 11px;
@@ -972,6 +977,23 @@ li a {
     color: #a8a8a8;
     font-family: Raleway, sans-serif;
     line-height: 1.8;
+  }
+  .tours-departure{
+    font-size: 13px;
+    color: #333333;
+    font-weight: 500;
+  }
+  .tours-description{
+    font-size: 10px;
+    font-weight: 300;
+    margin: 8px 25px 8px 25px;
+  }
+  .box-descriptions{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: -5px;
+    color: #294768;
+    font-family: Raleway, sans-serif;
   }
   .footer-container{
     background-image: url("https://images.unsplash.com/photo-1490723286627-4b66e6b2882a?ixlib=rb-0.3.5&s=70a8a314eedf8f4776856fb5ac26671e&auto=format&fit=crop&w=1350&q=80");
@@ -1014,11 +1036,84 @@ li a {
     border: none;
     padding: 20px;
   }
-  
+  .countries-container-right{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    color: #294768;
+    
+  }
  }
 @media all and (max-width: 480px) { 
   .center-text{
     z-index: 1;
-    font-size: 40px;
+    font-size: 45px;
+  }
+  .tours-description{
+    display: none;
+  }
+  .tours-city {
+    text-align: center;
+  }
+  .countries-container-left {
+    display: none;
+  }
+  .countries-information-boxes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+  }
+  .box{
+    height: 100%;
+    width: 49%;
+    background-color: #FFF;
+    border: 1px dotted #8ee4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .event-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    line-height: 2;      
+    max-height: 2*5;  
+  }
+  .first-event-button{
+    padding: 8px;
+    background-color: lightgreen;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 400;
+    background-color:  #E78657;
+  }
+  .second-event-button{
+    padding: 8px;
+    background-color: lightgreen;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 400;
+    background-color:  #4982A8;
+  }
+  .first-event-location{
+    font-size: 24px;
+  }
+  .second-event-location{
+    font-size: 24px;
   }
  }
