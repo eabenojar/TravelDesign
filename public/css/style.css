@@ -1047,6 +1047,14 @@ li a {
     color: #294768;
     
   }
+  .review-section-box{
+    width: 100%;
+    margin: 10px;
+    height: 100%;
+    background-color: #ededd0;
+    padding: 4%;
+    border: 5px solid #FFF;
+  }
  }
 @media all and (max-width: 480px) { 
   .center-text{
@@ -1089,31 +1097,72 @@ li a {
     max-height: 2*5;  
   }
   .first-event-button{
-    padding: 8px;
+    padding: 4px;
     background-color: lightgreen;
     border-radius: 8px;
     width: 150px;
-    height: 30px;
+    height: 24px;
     color: #FFF;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
     background-color:  #E78657;
   }
   .second-event-button{
-    padding: 8px;
+    padding: 4px;
     background-color: lightgreen;
     border-radius: 8px;
     width: 150px;
-    height: 30px;
+    height: 24px;
     color: #FFF;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
     background-color:  #4982A8;
   }
   .first-event-location{
-    font-size: 24px;
+    font-size: 18px;
   }
   .second-event-location{
-    font-size: 24px;
+    font-size: 18px;
+  }
+  .review-section-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; 
+    line-height: 2;      
+    max-height: 2*4;  
+  }
+  .countries-container-right{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    color: #294768;
+    
+  }
+  .countries-button {
+    padding: 10px;
+    background-color: #f25c5c;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    width: 200px;
+    height: 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Raleway,sans-serif;
+    color: #FFF;
+  }
+  .event-date{
+    font-size: 10px;
   }
  }
